@@ -1,0 +1,6 @@
+# Roojai-style Web Development Rules
+1. Use Tailwind CSS for all styling, prioritizing 'rounded-2xl' for cards and 'font-kanit' for all text.
+2. All Thai text must use professional business terminology (e.g., 'เช็คราคา' instead of just 'check').
+3. Forms must be accessible and include validation for Thai phone numbers (+66).
+4. Ensure mobile responsiveness, as most Thai users access via smartphones.
+5. Ensure all sections are fully responsive, with a focus on one-handed thumb navigation for mobile users
