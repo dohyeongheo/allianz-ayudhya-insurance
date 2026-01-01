@@ -1,6 +1,5 @@
 import { Header } from "@/components/header";
 import { Hero } from "@/components/hero";
-import { HealthQuoteForm } from "@/components/health-quote-form";
 import { Features } from "@/components/features";
 import { ProductComparison } from "@/components/product-comparison";
 import { LineContactSection } from "@/components/line-contact-section";
@@ -18,7 +17,6 @@ export default function Home() {
       <Header />
       <main className="flex-1">
         <Hero />
-        <HealthQuoteForm />
         <Features />
         <ProductComparison />
         <LineContactSection />

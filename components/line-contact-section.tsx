@@ -12,7 +12,7 @@ export function LineContactSection() {
 
   return (
     <section className="py-20 bg-gradient-to-br from-[#06C755]/5 via-white to-primary/5">
-      <div className="container px-4 md:px-6">
+      <div className="container mx-auto px-4 md:px-6 max-w-7xl">
         <Card className="rounded-2xl border-2 shadow-sm bg-white max-w-4xl mx-auto">
           <CardContent className="p-8 md:p-12">
             <div className="grid md:grid-cols-2 gap-8 items-center">

@@ -1,0 +1,7 @@
+[auth]
+token=your-auth-token-here
+
+[defaults]
+org=personal-4vx
+project=allianz-ayudhya-insurance
+

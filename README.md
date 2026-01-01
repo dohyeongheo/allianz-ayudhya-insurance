@@ -70,6 +70,27 @@ Insurance/
   - CTA 섹션 (행동 유도)
   - 푸터
 
+## 에러 트래킹 (Sentry)
+
+이 프로젝트는 Sentry를 사용하여 에러 트래킹 및 모니터링을 수행합니다.
+
+자세한 설정 방법은 [README-SENTRY.md](./README-SENTRY.md)를 참고하세요.
+
+### 빠른 시작
+
+1. `.env.local` 파일 생성:
+   ```bash
+   cp env.example .env.local
+   ```
+
+2. Sentry DSN은 이미 설정되어 있습니다. Source Maps 업로드를 원한다면 `SENTRY_AUTH_TOKEN`을 설정하세요.
+
+3. 프로덕션 빌드 실행:
+   ```bash
+   npm run build
+   npm start
+   ```
+
 ## 라이선스
 
 이 프로젝트는 비공개 프로젝트입니다.

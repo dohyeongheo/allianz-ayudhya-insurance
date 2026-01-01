@@ -1,0 +1,78 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E3F2FD" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#BBDEFB" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="professionalGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#003781" stop-opacity="0.05"/>
+      <stop offset="50%" stop-color="#003781" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#003781" stop-opacity="0.05"/>
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="0" dy="2" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.3"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="800" fill="url(#skyGradient)"/>
+
+  <!-- Professional Medical Consultation Scene -->
+  <!-- Medical Professional (Left) -->
+  <g transform="translate(300, 200)">
+    <!-- Doctor/Consultant -->
+    <ellipse cx="0" cy="0" rx="80" ry="100" fill="#FFFFFF" filter="url(#shadow)"/>
+    <!-- White coat -->
+    <rect x="-60" y="20" width="120" height="140" rx="10" fill="#FFFFFF" filter="url(#shadow)"/>
+    <!-- Medical stethoscope -->
+    <ellipse cx="-30" cy="40" rx="15" ry="20" fill="#003781" opacity="0.3"/>
+    <ellipse cx="30" cy="40" rx="15" ry="20" fill="#003781" opacity="0.3"/>
+    <!-- Professional icon -->
+    <circle cx="0" cy="60" r="25" fill="#003781" opacity="0.1"/>
+    <path d="M-15 60 L0 75 L15 60" stroke="#003781" stroke-width="3" fill="none" opacity="0.4"/>
+  </g>
+
+  <!-- Thai Family (Right) -->
+  <g transform="translate(900, 250)">
+    <!-- Family group -->
+    <ellipse cx="0" cy="0" rx="100" ry="120" fill="#FFFFFF" filter="url(#shadow)"/>
+    <!-- Parents and child representation -->
+    <circle cx="-40" cy="20" r="35" fill="#FFE0B2"/>
+    <circle cx="40" cy="20" r="35" fill="#FFE0B2"/>
+    <circle cx="0" cy="80" r="30" fill="#FFCCBC"/>
+    <!-- Happy faces -->
+    <path d="M-50 10 Q-40 20 -30 10" stroke="#4A148C" stroke-width="2" fill="none"/>
+    <path d="M30 10 Q40 20 50 10" stroke="#4A148C" stroke-width="2" fill="none"/>
+    <path d="M-10 80 Q0 90 10 80" stroke="#4A148C" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- Consultation Table/Counter (Center) -->
+  <g transform="translate(600, 450)">
+    <rect x="-150" y="-20" width="300" height="40" rx="5" fill="#FFFFFF" filter="url(#shadow)" opacity="0.9"/>
+    <!-- Medical documents/tablet -->
+    <rect x="-80" y="-15" width="160" height="30" rx="3" fill="#E3F2FD"/>
+    <line x1="-60" y1="-5" x2="60" y2="-5" stroke="#003781" stroke-width="2" opacity="0.3"/>
+    <line x1="-60" y1="5" x2="60" y2="5" stroke="#003781" stroke-width="2" opacity="0.3"/>
+  </g>
+
+  <!-- Allianz Branding -->
+  <g transform="translate(600, 650)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#003781" text-anchor="middle">ALLIANZ AYUDHYA</text>
+    <text x="0" y="35" font-family="Arial, sans-serif" font-size="24" fill="#003781" text-anchor="middle" opacity="0.8">ประกันสุขภาพ</text>
+    <text x="0" y="65" font-family="Arial, sans-serif" font-size="18" fill="#003781" text-anchor="middle" opacity="0.6">태국인 가족과 전문 의료진 상담 장면</text>
+  </g>
+
+  <!-- Decorative Elements -->
+  <circle cx="150" cy="150" r="40" fill="#003781" opacity="0.05"/>
+  <circle cx="1050" cy="150" r="40" fill="#003781" opacity="0.05"/>
+  <circle cx="150" cy="650" r="40" fill="#003781" opacity="0.05"/>
+  <circle cx="1050" cy="650" r="40" fill="#003781" opacity="0.05"/>
+</svg>

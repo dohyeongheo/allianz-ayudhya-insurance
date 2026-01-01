@@ -3,7 +3,7 @@ import { Globe, Shield, Award } from "lucide-react";
 export function Footer() {
   return (
     <footer className="border-t bg-white mt-auto">
-      <div className="container px-4 md:px-6">
+      <div className="container mx-auto px-4 md:px-6 max-w-7xl">
         {/* 상단: OIC 인증 및 글로벌 네트워크 */}
         <div className="py-12 border-b">
           <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">

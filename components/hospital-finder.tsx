@@ -75,7 +75,7 @@ export function HospitalFinder() {
 
   return (
     <section id="hospital" className="py-20 bg-white">
-      <div className="container px-4 md:px-6">
+      <div className="container mx-auto px-4 md:px-6 max-w-7xl">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold font-heading mb-4">
             병원 찾기

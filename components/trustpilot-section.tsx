@@ -4,8 +4,8 @@ import { Card } from "@/components/ui/card";
 export function TrustpilotSection() {
   return (
     <section className="py-16 bg-gradient-to-b from-primary/5 to-white">
-      <div className="container px-4 md:px-6">
-        <Card className="p-8 md:p-12 rounded-xl border-2 bg-white shadow-lg">
+      <div className="container mx-auto px-4 md:px-6 max-w-7xl">
+        <Card className="p-8 md:p-12 rounded-xl border-2 bg-white shadow-lg max-w-5xl mx-auto">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="flex flex-col items-center md:items-start text-center md:text-left">
               <div className="flex items-center gap-2 mb-4">
